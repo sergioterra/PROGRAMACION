@@ -1,3 +1,4 @@
+package com.terra.ITV;
 public class Vehiculo {
 	private String matricula;
 	private String modelo;
@@ -12,7 +13,7 @@ public class Vehiculo {
 	}
 
 	public Vehiculo() {
-		
+		// TODO Auto-generated constructor stub
 	}
 
 	public String getMatricula() {

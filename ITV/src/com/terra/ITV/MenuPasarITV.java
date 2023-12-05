@@ -1,3 +1,4 @@
+package com.terra.ITV;
 import java.util.Scanner;
 
 public class MenuPasarITV {
@@ -15,15 +16,15 @@ public class MenuPasarITV {
 			System.out.println("║           Menú Pasar Itv            ║");
 			System.out.println("║                                     ║");
 			System.out.println("║                                     ║");
-			System.out.println("║--  1. Pasa la ITV sin problemas     ║");
+			System.out.println("║  1. Pasa la ITV sin problemas       ║");
 			System.out.println("║                                     ║");
-			System.out.println("║--  2. Paa la Itv con problemas      ║");
+			System.out.println("║  2. Paa la Itv con problemas        ║");
 			System.out.println("║                                     ║");
-			System.out.println("║--  3. No pasa la ITV                ║"); 
+			System.out.println("║  3. No pasa la ITV                  ║"); 
 			System.out.println("║                                     ║");
 			System.out.println("╚═════════════════════════════════════╝");
 			System.out.println("");
-			System.out.print("Selecciona la opción: ");
+			System.out.print("Selecciona la opción a realizar: ");
 			opcion = sc.nextInt();
 			sc.nextLine();
 			switch (opcion) {

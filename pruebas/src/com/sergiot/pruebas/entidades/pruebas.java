@@ -1,6 +1,8 @@
-package pruebas;
+package com.sergiot.pruebas.entidades;
 
 import java.util.Scanner;
+import com.sergiot.pruebas.hola;
+
 
 public class pruebas {
 	public static void main (String args[]) {	
@@ -16,6 +18,8 @@ public class pruebas {
             System.out.println("0. Salir");
             System.out.print("Ingresa el número de la opción: ");
             
+            hola hola = new hola();
+            hola.decirHola();
             opcion = scanner.nextInt();
             
             switch (opcion) {
@@ -43,10 +47,14 @@ public class pruebas {
         } while (opcion != 0);
 
         scanner.close();
+        
+        
+        
+        
 		}
 		
-
-
+		
+	
 		
 	
 

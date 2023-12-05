@@ -1,6 +1,7 @@
+package com.terra.ITV;
 import java.util.Scanner;
 
-public class Menu {
+public class MenuCreacionVehiculo {
 	Vehiculo vehiculo;
 	private String matricula, modelo, combustible;
 	private String caballos;
