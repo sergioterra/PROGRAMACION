@@ -1,4 +1,4 @@
-package com.sergiot.ejemploexamen1.entidades;
+package com.sergiot.examenprogramacionT3.entidades;
 
 public class Propietario {
 	private String nombre;

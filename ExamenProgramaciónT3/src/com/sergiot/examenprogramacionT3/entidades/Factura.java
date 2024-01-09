@@ -1,7 +1,7 @@
-package com.sergiot.ejemploexamen1.entidades;
+package com.sergiot.examenprogramacionT3.entidades;
 
-import com.sergiot.ejemploexamen1.entidades.Propietario;
-import com.sergiot.ejemploexamen1.entidades.Ruedas;
+import com.sergiot.examenprogramacionT3.entidades.Propietario;
+import com.sergiot.examenprogramacionT3.entidades.Ruedas;
 
 public class Factura {
 	public void preciosFacturas(Propietario propietario, Ruedas ruedas) {

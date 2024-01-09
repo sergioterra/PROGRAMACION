@@ -1,8 +1,8 @@
-package com.sergiot.ejercicioexamen1.interfaces;
+package com.sergiot.examenprogramacionT3.interfaces;
 
-import com.sergiot.ejemploexamen1.entidades.Factura;
-import com.sergiot.ejemploexamen1.entidades.Propietario;
-import com.sergiot.ejemploexamen1.entidades.Ruedas;
+import com.sergiot.examenprogramacionT3.entidades.Factura;
+import com.sergiot.examenprogramacionT3.entidades.Propietario;
+import com.sergiot.examenprogramacionT3.entidades.Ruedas;
 
 
 public class MenuFactura {

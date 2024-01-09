@@ -1,10 +1,10 @@
-package com.sergiot.ejercicioexamen1.interfaces;
+package com.sergiot.examenprogramacionT3.interfaces;
 
 import java.util.Scanner;
 
-import com.sergiot.ejemploexamen1.entidades.Vehiculo;
-import com.sergiot.ejemploexamen1.entidades.Propietario;
-import com.sergiot.ejercicioexamen1.interfaces.MenuPropietario;
+import com.sergiot.examenprogramacionT3.entidades.Propietario;
+import com.sergiot.examenprogramacionT3.entidades.Vehiculo;
+import com.sergiot.examenprogramacionT3.interfaces.MenuPropietario;
 
 public class MenuVehiculo {
 
