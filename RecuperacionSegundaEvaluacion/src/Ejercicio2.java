@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 import com.github.javafaker.Faker;
 
-public class MiFaker {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Faker faker = new Faker();
