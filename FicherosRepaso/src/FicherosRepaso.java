@@ -1,17 +1,8 @@
-package javafaker;
-
-import java.util.Iterator;
-import java.util.Scanner;
-
-import com.github.javafaker.Faker;
-
-//para importar el faker es solo mentiendote a propiedades de la todo el proyecto y te metes a las bibliotecas y los añadas, 
-//luego tienes que ponere IMPORT FAKER y te sale.
-
 import java.util.Random;
 import java.util.Scanner;
+package javafaker;
 
-public class ejercicio {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Faker faker = new Faker();
