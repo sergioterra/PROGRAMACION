@@ -1,18 +1,9 @@
 import java.util.Random;
 import java.util.Scanner;
 
-
-import javax.annotation.processing.SupportedSourceVersion;
-import javax.swing.plaf.synth.SynthScrollPaneUI;
-
-
-import org.apache.commons.lang3.builder.ToStringBuilder;
-
-
 import com.github.javafaker.Faker;
 
-
-public class Ejercicio2 {
+public class MiFaker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Faker faker = new Faker();
@@ -28,7 +19,7 @@ public class Ejercicio2 {
 
 
         for (int i = 0; i < nombres.length; i++) {
-            nombres[i] = faker.name().name();
+        nombres[i] = faker.name().name();
         }
         for (int i = 0; i < nombres.length - 1; i++) {
             System.out.print(nombres[i] + "-");
