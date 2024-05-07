@@ -11,13 +11,13 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
 
-        /*
+
         String rutaAlumnos;
         System.out.println("Introduzca la ruta del fichero alumnos: ");
         rutaAlumnos = sc.nextLine();
-        */
 
-        FileReader fr = new FileReader("C:\\Users\\alumnofp\\Downloads\\OneDrive1\\alumnos.txt");
+
+        FileReader fr = new FileReader(rutaAlumnos);
         BufferedReader br = new BufferedReader(fr);
 
         String linea;
@@ -29,13 +29,13 @@ public class Main {
         }
 
 
-        /*
+
         String rutaNotas;
         System.out.println("Introduzca la ruta del fichero de notas: ");
         rutaNotas = sc.nextLine();
-        */
 
-        FileReader fr2 = new FileReader("C:\\Users\\alumnofp\\Downloads\\OneDrive1\\notas.txt");
+
+        FileReader fr2 = new FileReader(rutaNotas);
         BufferedReader br2 = new BufferedReader(fr2);
 
         String linea2;
