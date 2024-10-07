@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#frutas {
+    display: list-item;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.fruta {
+    cursor: pointer;
+}
+
+.fruta img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+}
+
+.resumen-compra {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
